@@ -5,7 +5,9 @@ header .wrapper,
 }
 
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Krub', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
 background: #fff;
 }
@@ -19,6 +21,21 @@ main[role='main']{
 }
 main[role='main'] .wrapper {
     background: transparent;
+}
+
+.paragraph ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px 0 5px 30px;
+}
+.paragraph ul li:before {
+    content: 'จ';
+    position: absolute;
+    left: -45px;
+    font-weight: bold;
+    top: 0;
+    color: #113c8f;
+    transform: rotate(-63deg)
 }
 
 .claim {
@@ -57,7 +74,7 @@ main[role='main'] .wrapper {
 
 
 .paragraph--type--clanek .inner {
-	font-size: 110%;
+	font-size: 100%;
     color: black;
     padding: 0 15px 15px;
 }
@@ -147,9 +164,10 @@ h2.paragraph-nadpis {
 }
 
 h3, h4 {
-	color:  #ffa51b;
-	font-weight: 600;
-	margin: 40px 0 0;
+	color: #113c8f;
+    font-weight: 400;
+    margin: 40px 0 30px 0;
+    font-size: 130%;
 }
 
 #menu-btn {
@@ -171,7 +189,9 @@ h3, h4 {
     .logo{top: 16px;}
     .logo a{left: 0;}
     .main-menu {margin: 15px 0 0;}
-    header .wrapper {min-height: 75px;padding: 0 15px 40px;}
+    header .wrapper {
+        padding: 0 15px 10px;
+    }
 }
 
 
@@ -391,7 +411,22 @@ background: #ffffff;
 #cboxNext:before,
 #cboxPrevious:before,
 #cboxClose:before {
-    background: #663822!important;
+    background: #113c8f!important;
+}
+
+.floatRight {
+    float: right;
+    margin: 0 0 10px;
+}
+.floatLeft {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
 
 a.btn {
