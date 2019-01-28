@@ -4,6 +4,6 @@
 	<title>Domy proboštov</title>
 </head>
 <body>
-DOmy proboštov
+<h1>Tady</h1>
 </body>
 </html>
