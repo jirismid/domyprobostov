@@ -1,0 +1,463 @@
+.wrapper,
+header .wrapper,
+.footer .field--field-footer {
+    max-width: 900px;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.layout-container {
+    background: transparent !important;
+}
+
+main[role='main']{
+    padding: 0;
+    margin-bottom: -137px;
+}
+main[role='main'] .wrapper {
+    background: transparent;
+}
+
+.claim {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 120%;
+	text-shadow: 1px 1px 2px black;
+}
+@media only screen and (min-width: 768px) {
+	.claim {
+	font-size: 130%;
+	position: absolute;
+	left: 0;
+	bottom: 60px;
+	margin: 0 auto;
+	width: calc(100% - 540px);
+	padding: 0 0 0 540px;
+	right: 0;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.claim {
+	font-size: 150%;
+	}
+}
+
+.paragraph--type--clanek {
+    padding: 137px 0 0;
+    top: -137px;
+}
+
+
+.paragraph--type--clanek .inner {
+	font-size: 110%;
+    color: white;
+    text-shadow: 1px 1px 1px #5e0116;
+    padding: 0 15px 15px;
+}
+
+
+header {
+    background: #290009 url("/design/img/header-namaste.jpg") top center repeat;
+    z-index: 1;
+    background-size: 100%;
+    min-height: 360px;
+
+}
+@media only screen and (min-width: 321px) {
+	header {
+		background-image: url("/design/img/header-namaste.jpg");
+		background-size: 600px;
+		min-height: 400px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	header {
+		background-image: url("/design/img/header-namaste.jpg");
+		background-size: 768px;
+    	min-height: 520px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	header {
+		background-image: url("/design/img/header-namaste.jpg");
+		background-size: 930px;
+    	min-height: 600px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	header {
+        background-size: 1600px;
+        min-height: 525px;
+        background-position: top center;
+
+	}
+}
+
+header .wrapper {
+    background: transparent;    
+    margin: 0 auto;
+    min-height: 10px;
+    border: none;
+    padding: 0 10px;
+}
+
+.header-image {
+    display: none;
+}
+
+.logo {
+	top: 1px;
+    width: 350px;
+    height: 50px;
+    left: -10px;
+    text-indent: 0;
+    text-align: right;
+}
+.logo a {
+	color: white;
+    text-decoration: none;
+    width: 350px;
+    height: 50px;
+}
+.logo svg {
+    width: 100%;
+    height: auto;
+    display: block;    
+}
+.logo span {
+    font-size: 21px;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.wrapper {
+    background: white;
+}
+
+h1, h2, h3, h4, h5,
+.main-menu {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2.paragraph-nadpis {
+    color: #fff;
+    padding: 22px 0 15px;
+    border-bottom: 2px solid #a90329;
+    margin-bottom: 50px;
+}
+
+h3, h4 {
+	color:  #ffa51b;
+	font-weight: 600;
+	margin: 40px 0 0;
+}
+
+#menu-btn {
+    color: white;
+    top: 5px;
+    right: 5px;
+}
+
+#menu-btn span,
+#menu-btn span:before,
+#menu-btn span:after {
+    background: white;
+}
+
+@media only screen and (min-width: 768px) {
+    }
+
+@media only screen and (min-width: 1024px) {
+    .logo{top: 16px;}
+    .logo a{left: 0;}
+    .main-menu {margin: 15px 0 0;}
+    header .wrapper {min-height: 75px;padding: 0 15px 40px;}
+}
+
+
+.footer {
+    padding: 30px 10px;
+    background: transparent;
+    color: #c11a53;
+    text-align: center;
+}
+
+.footer .field--field-footer {
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: #fff;
+}
+
+nav#block-idweb-main-menu {
+    position: relative;
+    clear: both;
+    float: none;
+}
+
+@media only screen and (min-width: 768px) {
+    nav#block-idweb-main-menu {
+        clear: none;
+    }
+}
+
+nav#block-idweb-main-menu.active ul.menu {
+    display: block;
+}
+
+nav#block-idweb-main-menu h2 {
+    display: none;
+}
+
+.main-menu ul#paragraph-menu {
+    padding: 0;
+    display: none;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main-menu ul#paragraph-menu li {
+    display: block;
+    padding: 0
+}
+/*
+@media only screen and (min-width: 950px) {
+    .main-menu ul#paragraph-menu {
+        display: block !important
+    }
+}
+
+*/
+
+@media only screen and (min-width: 1024px) {
+    .main-menu ul#paragraph-menu li {
+        display: inline-block;
+        padding: 0;
+        margin: 0 2px
+    }
+    .main-menu ul#paragraph-menu li a {
+        text-shadow: 0;
+    }
+}
+
+
+.main-menu ul#paragraph-menu li a {
+    display: block;
+    transition: 300ms;
+    color: #673821;
+    text-decoration: none;
+    border: none;
+    line-height: 25px;
+    height: auto;
+    padding: 10px 20px;
+
+}
+
+.main-menu ul#paragraph-menu li a:hover, 
+.main-menu ul#paragraph-menu li a.is-active {
+    color: #8f0222;
+    border-bottom: 0;
+background: #ffffff;
+    text-shadow: 0 -1px 1px #ffffff;
+}
+
+.main-menu ul#paragraph-menu li a.is-active,
+.main-menu ul#paragraph-menu li.ui-tabs-active a {
+    border-bottom: 0;
+    font-weight: normal;
+    color: #8f0222;
+background: #ffffff;
+    text-shadow: 0 -1px 1px #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-menu ul#paragraph-menu li a {
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        color: #8f0222;
+        padding: 5px 14px;
+        border-radius: 5px;
+    }
+    .main-menu ul#paragraph-menu li a:hover, 
+    .main-menu ul#paragraph-menu li a.is-active, 
+    .main-menu ul#paragraph-menu li.ui-tabs-active a {
+        background: none;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        text-shadow: 0 0 2px #666;
+    }
+}
+
+
+
+#namaste-salon .inner .paragraph-nadpis-wrap {
+    /*padding-top: 35%;
+    background-image: url('data:image/jpeg;base64');
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    */background-size: 100%;
+}
+
+.paragraph--type--apartman {
+    border: 1px solid #f1eed4;
+    background: #fffef8;
+}
+
+.paragraph--type--apartman .field--field-nadpis-apartmanu {
+    color: #673821;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #block-form label {
+        float: left;
+        width: calc(130px - 20px);
+        padding: 7px 20px 7px 0;
+        text-align: right;
+    }
+    #block-form input[type=text],
+    #block-form input[type=email],
+    #block-form input[type=date],
+    #block-form input[type=number] {
+        float: left;
+        width: calc(100% - 142px);
+        border: 1px solid grey;
+        /* tohle přepsat někde v defaultu ubytovani */
+        max-width: 100%; /* tohle přepsat někde v defaultu ubytovani */
+        padding: 7px 5px 5px 5px;
+    }
+    #block-form input[type=submit] {
+        margin-left: 130px; /* important kvuli submit:first-child v theme ubytovani; */
+    }
+
+    #block-form textarea {
+        max-width: 398px;
+    }
+}
+
+.paragraph--type--text-3-sloupce {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer .paragraph--type--text-2-sloupce .field--field-prvni-sloupec {
+        text-align: left;
+    }
+    .footer .paragraph--type--text-2-sloupce .field--field-druhy-sloupec {
+        text-align: right;
+    }
+
+    #block-form {
+        margin: 60px auto 30px;
+        max-width: 530px;
+    }
+    /* tohle bych dal do obecného */
+    .paragraph--type--text-2-sloupce,
+    .paragraph--type--text-3-sloupce {
+        display: table;
+        width: 100%;
+        position: relative;
+    }
+        /* tohle bych dal do obecného */
+    .paragraph--type--text-2-sloupce:after,
+    .paragraph--type--text-3-sloupce:after {
+        content: "";
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
+    /* tohle bych dal do obecného */
+    .paragraph--type--text-2-sloupce .field--field-prvni-sloupec,
+    .paragraph--type--text-2-sloupce .field--field-druhy-sloupec {
+        display: table-cell;
+        width: 50%;
+    }
+
+    /* tohle bych dal do obecného */
+    .paragraph--type--text-3-sloupce .field--field-prvni-sloupec,
+    .paragraph--type--text-3-sloupce .field--field-druhy-sloupec,
+    .paragraph--type--text-3-sloupce .field--field-treti-sloupec {
+        display: table-cell;
+        width: 33.3%;
+    }
+
+
+}
+
+
+#cboxNext:before,
+#cboxPrevious:before,
+#cboxClose:before {
+    background: #663822!important;
+}
+
+a.btn {
+    padding: 5px 11px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #8f0222;
+    font-weight: normal;
+    color: #fff;
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    text-shadow: 0 -1px 1px #00000059;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+}
+a.btn:hover {
+    background: #8f0222;
+    transition: background-color .35s ease;
+    -webkit-transition: background-color .35s ease;
+    -moz-transition: background-color .35s ease;
+}
+
+
+
+table{width:100%}
+table tr th{background:#663822;color:white;font-weight:500;border-bottom:1px solid #663822;border-left:1px solid #7f4d35;padding:10px 10px 9px 10px;text-align:left}
+table tr th:first-child{border-left:0}
+table tr th[align="right"],
+table tr th.views-align-right{text-align:right}
+table tr th[align="center"],
+table tr th.views-align-center{text-align:center}
+table tr td{border-bottom:1px solid #eee;border-left:1px solid #eee;padding:6px 10px}table tr td:first-child{border-left:0}
+table tr td[align="right"],
+table tr td.views-align-right{text-align:right}
+table tr td[align="center"],
+table tr td.views-align-center{text-align:center}
+table tr:last-child td{border-bottom:0}
+
+/* tohle nefunguje...
+
+.owl-wrapper {
+    width: 270px!important;
+}
+.owl-wrapper .owl-item {
+    width: 270px!important;
+}
+
+*/
