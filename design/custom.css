@@ -7,13 +7,7 @@ header .wrapper,
 body {
 	font-family: 'PT Sans', sans-serif;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
-background-repeat: no-repeat;
-background-attachment: fixed;
+background: #fff;
 }
 .layout-container {
     background: transparent !important;
@@ -64,49 +58,38 @@ main[role='main'] .wrapper {
 
 .paragraph--type--clanek .inner {
 	font-size: 110%;
-    color: white;
-    text-shadow: 1px 1px 1px #5e0116;
+    color: black;
     padding: 0 15px 15px;
 }
 
 
 header {
-    background: #290009 url("/design/img/header-namaste.jpg") top center repeat;
+    background: rgba(0, 0, 0, 0.78);
     z-index: 1;
     background-size: 100%;
-    min-height: 360px;
-
 }
+
 @media only screen and (min-width: 321px) {
 	header {
-		background-image: url("/design/img/header-namaste.jpg");
-		background-size: 600px;
-		min-height: 400px;
+		
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	header {
-		background-image: url("/design/img/header-namaste.jpg");
-		background-size: 768px;
-    	min-height: 520px;
+		
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	header {
-		background-image: url("/design/img/header-namaste.jpg");
-		background-size: 930px;
-    	min-height: 600px;
+		
 	}
 }
 
 @media only screen and (min-width: 900px) {
 	header {
-        background-size: 1600px;
-        min-height: 525px;
-        background-position: top center;
-
+        
 	}
 }
 
@@ -123,17 +106,17 @@ header .wrapper {
 }
 
 .logo {
-	top: 1px;
-    width: 350px;
+	top: 8px;
+    width: auto;
     height: 50px;
     left: -10px;
     text-indent: 0;
-    text-align: right;
+    text-align: left;
 }
 .logo a {
 	color: white;
     text-decoration: none;
-    width: 350px;
+    width: auto;
     height: 50px;
 }
 .logo svg {
@@ -157,9 +140,9 @@ h1, h2, h3, h4, h5,
 }
 
 h2.paragraph-nadpis {
-    color: #fff;
+    color: #113c8f;
     padding: 22px 0 15px;
-    border-bottom: 2px solid #a90329;
+    border-bottom: 2px solid rgba(2, 5, 19, 0.28);
     margin-bottom: 50px;
 }
 
@@ -195,7 +178,7 @@ h3, h4 {
 .footer {
     padding: 30px 10px;
     background: transparent;
-    color: #c11a53;
+    color: rgba(17, 75, 121, 0.28);
     text-align: center;
 }
 
@@ -262,7 +245,7 @@ nav#block-idweb-main-menu h2 {
 .main-menu ul#paragraph-menu li a {
     display: block;
     transition: 300ms;
-    color: #673821;
+    color: #113c8f;
     text-decoration: none;
     border: none;
     line-height: 25px;
@@ -292,7 +275,7 @@ background: #ffffff;
     .main-menu ul#paragraph-menu li a {
         background: #ffffff;
         border: 1px solid #ffffff;
-        color: #8f0222;
+        color: #113c8f;
         padding: 5px 14px;
         border-radius: 5px;
     }
@@ -322,7 +305,7 @@ background: #ffffff;
 }
 
 .paragraph--type--apartman .field--field-nadpis-apartmanu {
-    color: #673821;
+    color: #113c8f;
 }
 
 
