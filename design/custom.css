@@ -434,6 +434,13 @@ img.circle.floatRight {
     float: none;
 }
 
+.rozloha {
+        display: block;
+    max-width: 250px;
+    margin: 0 auto;
+
+}
+
 @media only screen and (min-width: 599px) {
     img.circle.floatRight {
       float: right;
