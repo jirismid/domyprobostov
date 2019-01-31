@@ -429,6 +429,10 @@ background: #ffffff;
     margin: 0 auto;
 }
 
+#lokalita .circle {
+    margin-top: -40px;
+    }
+
 img.circle.floatLeft,
 img.circle.floatRight {
     float: none;
@@ -439,6 +443,11 @@ img.circle.floatRight {
     max-width: 320px;
     margin: 0 auto;
 
+}
+
+.alignLeft,
+.alignRight {
+    text-align: center;
 }
 
 @media only screen and (min-width: 599px) {
@@ -453,6 +462,10 @@ img.circle.floatRight {
 
     .alignRight {
         text-align: right;
+    }
+
+    .alignLeft {
+        text-align: left;
     }
 }
 
