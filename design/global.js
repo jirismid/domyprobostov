@@ -25,6 +25,10 @@
             window.location.hash = $(this).attr('href');
             e.preventDefault();
         });
+        $('a.ui-tabs-anchor span').click(function () {
+            $('#paragraph-menu').slideToggle();
+            $( "#menu-btn" ).toggleClass('is-active');
+        });
         $('a.tab').click(function () {
             $url = $(this).attr('href');
             $('a.ui-tabs-anchor').each(function () {
